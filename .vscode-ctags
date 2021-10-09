@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_LEN	module/device.h	21;"	d
+BUILD_DIR	module/Makefile	/^BUILD_DIR = ..\/dist$/;"	m
+Buffer	module/device.c	/^char Buffer[BUF_LEN];$/;"	v
+MANAGER_DEVICE_FILE_NAME	lib/include/dist_comm/dev.h	9;"	d
+MANAGER_DEVICE_FILE_NAME	module/device.h	19;"	d
+DEVICE_H	module/device.h	10;"	d
+DEVICE_NAME	lib/include/dist_comm/dev.h	8;"	d
+DEVICE_NAME	module/device.h	18;"	d
+DEV_NAME	module/Makefile	/^DEV_NAME=dist_comm$/;"	m
+DISCOVERY_H	module/network/discovery.h	2;"	d
+DISCOVERY_SERVER_PORT	module/network/discovery.h	10;"	d
+manager_open	module/device.c	/^int manager_open = 0;$/;"	v
+Fops	module/device.c	/^struct file_operations Fops = {$/;"	v	typeref:struct:file_operations
+HELLO_WORLD_CMD	lib/include/dist_comm/dev.h	5;"	d
+HELLO_WORLD_CMD	module/device.h	15;"	d
+IF_IMMEDATE	module/interface/interface.h	4;"	d
+IF_STREAM	module/interface/interface.h	5;"	d
+INTERFACE_H	module/interface/interface.h	2;"	d
+INTERFACE_SERVER_PORT	module/network/discovery.h	11;"	d
+KERNEL_PATH	module/Makefile	/^KERNEL_PATH = \/root\/linux-3.10.0-1160.el7$/;"	m
+KERNEL_VERSION	module/Makefile	/^KERNEL_VERSION=3.10.0$/;"	m
+LIB_DEV_H	lib/include/dist_comm/dev.h	2;"	d
+M	module/Makefile	/^	make -C $(KERNEL_PATH) M=$(PWD) modules$/;"	m
+MAJOR_NUM	lib/include/dist_comm/dev.h	4;"	d
+MAJOR_NUM	module/device.h	14;"	d
+MAX_BUFFER_SIZE	module/network/discovery.h	12;"	d
+MAX_INTERFACE_LIST_PACKET_SIZE	module/interface/interface.h	7;"	d
+Message_Ptr	module/device.c	/^char *Message_Ptr;$/;"	v
+REG_INTERFACE_CMD	lib/include/dist_comm/dev.h	6;"	d
+REG_INTERFACE_CMD	module/device.h	16;"	d
+ROOT	Makefile	/^ROOT=$(PWD)$/;"	m
+TEST_SOURCES	Makefile	/^TEST_SOURCES=$(wildcard test\/*.c)$/;"	m
+TEST_TARGETS	Makefile	/^TEST_TARGETS=$(TEST_SOURCES:.c=.test)$/;"	m
+__this_module	dist/dist_comm.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	qemu/initfs/data/dist_comm.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	dist/dist_comm.mod.c	/^__used$/;"	v	file:
+__used	dist/dist_comm.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	qemu/initfs/data/dist_comm.mod.c	/^__used$/;"	v	file:
+__used	qemu/initfs/data/dist_comm.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+addr	module/interface/interface.h	/^    void *addr;$/;"	m	struct:interface_arg_impl
+argc	module/interface/interface.h	/^    int id, argc;$/;"	m	struct:interface
+argv	module/interface/interface.h	/^    struct interface_arg *argv;$/;"	m	struct:interface	typeref:struct:interface::interface_arg
+buffer	module/network/discovery.c	/^char *buffer;$/;"	v
+cleanup_module	module/exit.c	/^void cleanup_module(void)$/;"	f
+description	module/interface/interface.h	/^    char *description;$/;"	m	struct:interface_arg_info
+description	module/interface/interface.h	/^    char *description;$/;"	m	struct:interface_info
+manager_ioctl	module/device.c	/^int manager_ioctl(struct file *file, unsigned int ioctl_num, unsigned long ioctl_param)$/;"	f
+manager_open	module/device.c	/^int manager_open(struct inode *inode, struct file *file)$/;"	f
+device_read	module/device.c	/^ssize_t device_read(struct file *file, char __user *buffer, size_t length, loff_t *offset)$/;"	f
+manager_release	module/device.c	/^int manager_release(struct inode *inode, struct file *file)$/;"	f
+device_write	module/device.c	/^device_write(struct file *file, const char __user *buffer, size_t length, loff_t *offset)$/;"	f
+discovery_server_addr	module/network/discovery.c	/^struct sockaddr_in *discovery_server_addr;$/;"	v	typeref:struct:sockaddr_in
+discovery_server_loop	module/network/discovery.c	/^void discovery_server_loop(void) {$/;"	f
+discovery_server_loop_task	module/network/discovery.c	/^struct task_struct *discovery_server_loop_task;$/;"	v	typeref:struct:task_struct
+discovery_server_sock	module/network/discovery.c	/^struct socket *discovery_server_sock;$/;"	v	typeref:struct:socket
+flags	module/interface/interface.h	/^    char flags;$/;"	m	struct:interface_arg
+generate_interfaces_packet	module/interface/interface.c	/^char* generate_interfaces_packet(struct interface **interface_list, int count) {$/;"	f
+id	module/interface/interface.h	/^    int id, argc;$/;"	m	struct:interface
+impl	module/interface/interface.h	/^    struct interface_arg_impl *impl;$/;"	m	struct:interface_arg	typeref:struct:interface_arg::interface_arg_impl
+info	module/interface/interface.h	/^    struct interface_arg_info *info;$/;"	m	struct:interface_arg	typeref:struct:interface_arg::interface_arg_info
+info	module/interface/interface.h	/^    struct interface_info *info;$/;"	m	struct:interface	typeref:struct:interface::interface_info
+init_module	module/init.c	/^int init_module(void)$/;"	f
+interface	module/interface/interface.h	/^typedef struct interface {$/;"	s
+interface_arg	module/interface/interface.h	/^typedef struct interface_arg {$/;"	s
+interface_arg_impl	module/interface/interface.h	/^typedef struct interface_arg_impl {$/;"	s
+interface_arg_impl_t	module/interface/interface.h	/^} interface_arg_impl_t;$/;"	t	typeref:struct:interface_arg_impl
+interface_arg_info	module/interface/interface.h	/^typedef struct interface_arg_info {$/;"	s
+interface_arg_info_t	module/interface/interface.h	/^} interface_arg_info_t;$/;"	t	typeref:struct:interface_arg_info
+interface_arg_t	module/interface/interface.h	/^} interface_arg_t;$/;"	t	typeref:struct:interface_arg
+interface_info	module/interface/interface.h	/^typedef struct interface_info {$/;"	s
+interface_info_t	module/interface/interface.h	/^} interface_info_t;$/;"	t	typeref:struct:interface_info
+interface_t	module/interface/interface.h	/^} interface_t;$/;"	t	typeref:struct:interface
+ioctl_helloworld	test/ioctl.c	/^ioctl_helloworld(int file_desc)$/;"	f
+length	module/interface/interface.h	/^    int length;$/;"	m	struct:interface_arg_impl
+main	test/ioctl.c	/^main()$/;"	f
+name	module/interface/interface.h	/^    char *name;$/;"	m	struct:interface_arg_info
+name	module/interface/interface.h	/^    char *name;$/;"	m	struct:interface_info
+parse_interfaces_packet	module/interface/interface.c	/^int parse_interfaces_packet(char *packet, int length, struct interface ***interface_list, int *count) {$/;"	f
+peer_discovery	module/network/discovery.c	/^void peer_discovery(void) {$/;"	f
+start_discovery_server	module/network/discovery.c	/^int start_discovery_server(void) {$/;"	f
+stop_discovery_server	module/network/discovery.c	/^void stop_discovery_server(void) {$/;"	f

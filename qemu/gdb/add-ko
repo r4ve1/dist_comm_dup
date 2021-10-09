@@ -1,0 +1,1 @@
+add-symbol-file ./dist/dist_comm.ko 0xffffffffc002f000 -s .data 0xffffffffc0031000 -s .bss 0xffffffffc0031320

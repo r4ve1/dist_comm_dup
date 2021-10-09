@@ -1,0 +1,9 @@
+dist/
+char_dev
+qemu/bzImage
+qemu/vmlinux
+qemu/rootfs
+test/*.test
+test/*.o
+qemu/initfs/data
+core*
